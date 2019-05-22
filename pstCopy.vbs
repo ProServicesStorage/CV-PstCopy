@@ -1,12 +1,7 @@
 'VBScript
 
-'pstCopy.vbs by CommVault Professional Services
-	'Original Edit on 11/17/2014
-	'Edited on 8/7/2015 to add regular expression via input. Quotes not necessary for expression.
-	'Provided "As Is" to help automate PST archiving but NOT supported
 	'Scripts purpose is to copy PST's from source folder to target folder structure necessary for CommVault PST import
 	'If PST file owner set correctly then script is not necessary.
-	'Currently specific to only copying PSTs from TransVault migration output from Enterprise Vault. Please read "PST Migration from Enterprise Vault with TransVault.doc" before running!
 	'Creates log directory and log file if doesn't exist in source directory\pstCopyLogs\pstCopy.Log
 
 '------------------------------------------------------------------------------------------------------------------------------------------------------------
