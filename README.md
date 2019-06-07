@@ -21,6 +21,10 @@ PowerShell to get PST files copied from one folder to another in the correct fol
 
     Example Usage:
     
+    To copy PST files:
+    
         .\CV-PstCopy.ps1 -source C:\scripts\test\srcdir -target C:\scripts\test\trgtdir
+        
+    To move PST files:
         
         .\CV-PstCopy.ps1 -source C:\scripts\test\srcdir -target C:\scripts\test\trgtdir -move
