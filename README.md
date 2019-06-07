@@ -20,5 +20,7 @@ PowerShell to get PST files copied from one folder to another in the correct fol
     - -move is an optional parameter that moves rather than copies PST's so faster and saves space.
 
     Example Usage:
+    
         .\CV-PstCopy.ps1 -source C:\scripts\test\srcdir -target C:\scripts\test\trgtdir
+        
         .\CV-PstCopy.ps1 -source C:\scripts\test\srcdir -target C:\scripts\test\trgtdir -move
